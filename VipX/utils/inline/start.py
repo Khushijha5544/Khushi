@@ -20,17 +20,17 @@ def start_pannel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="🕹 𝐀𝐃𝐃 𝐌𝐄 𝐁𝐀𝐁𝐘 🕹",
+                text="αdd mє вαвч",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             )
         ],
         [
             InlineKeyboardButton(
-                text="🦋𝐅𝐄𝐀𝐓𝐔𝐑𝐄🦋",
+                text="ϝҽαƚυɾҽ",
                 callback_data="settings_back_helper",
             ),
             InlineKeyboardButton(
-                text="⚙️𝐒𝐄𝐓𝐓𝐈𝐍𝐆⚙️", callback_data="settings_helper"
+                text="⚙ᏕᏋᏖᏖᎥᏁᎶ⚙", callback_data="settings_helper"
             ),
         ],
      ]
@@ -41,29 +41,29 @@ def private_panel(_, BOT_USERNAME, OWNER: Union[bool, int] = None):
     buttons = [
         [
             InlineKeyboardButton(
-                text="🕹 𝐀𝐃𝐃 𝐌𝐄 𝐅𝐀𝐒𝐓 𝐁𝐀𝐁𝐘 🕹",
+                text=" αdd mє вαвч ",
                 url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
             )
         ],
         [
             InlineKeyboardButton(
-                text="🎭 𝐎𝐖𝐍𝐄𝐑 🎭", url=f"https://t.me/Its_ME_KHUSHI_01",
+                text="Ꭷ𝒘𝒏𝒆𝒓", url=f"https://t.me/Its_ME_KHUSHI_01",
             ),
             InlineKeyboardButton(
-                text="🔰 𝐇𝐄𝐋𝐏 🔰", callback_data="settings_back_helper"
+                text="𝒉𝒆𝒍𝒑", callback_data="settings_back_helper"
             )
         ],
         [
             InlineKeyboardButton(
-                text="🎄𝐒𝐔𝐏𝐏𝐎𝐑𝐓🎄", url=f"https://t.me/Ajanabee_Duniya",
+                text="ᎶᏒᎧʊք", url=f"https://t.me/Ajanabee_Duniya",
             ),
             InlineKeyboardButton(
-                text="🥀𝐔𝐏𝐃𝐀𝐓𝐄𝐒🥀", url=f"https://t.me/ab_krishna_uff",
+                text="ᏦᏂυʂԋι", url=f"https://t.me/ab_krishna_uff",
             )
         ],
         [
             InlineKeyboardButton(
-                text="🌱ѕσʋяcɛ🌱",
+                text="ѕσʋяcɛ",
                 url=f"https://t.me/ab_krishna_uff",
             )
         ],
