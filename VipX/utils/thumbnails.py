@@ -15,9 +15,9 @@ YOUTUBE_IMG_URL = [
 
 "https://graph.org/file/b93a7652664ded1c01c95.jpg",
 "https://graph.org/file/7ca0ae3fe2e327d3dcc86.jpg",
-"https://graph.org/file/ff0d966aee3123db6ae91.jpg",
-"https://graph.org/file/a39f6f364c34e724ef367.jpg",
-"https://graph.org/file/88fcdd5e044279c0d1747.jpg",
+"https://graph.org/file/ad6ccaea76aad1dadabd7.jpg",
+"https://graph.org/file/42915a9aecb3f1aaec5eb.jpg",
+"https://graph.org/file/ee86523288c12fce31ba3.jpg",
 "https://graph.org/file/fcc2837e0f83cd4d08765.jpg",
 "https://graph.org/file/1fcd0f7d5fdb7e700dca5.jpg",
 "https://graph.org/file/39c27bf76bf8742a148c4.jpg",
