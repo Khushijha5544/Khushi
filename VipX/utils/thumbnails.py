@@ -13,6 +13,7 @@ import config
 from VipX import app
 YOUTUBE_IMG_URL = [ 
 
+"https://te.legra.ph/file/f56b510d88371ad285fb7.jpg",
 "https://graph.org/file/7ca0ae3fe2e327d3dcc86.jpg",
 "https://graph.org/file/ff0d966aee3123db6ae91.jpg",
 "https://graph.org/file/a39f6f364c34e724ef367.jpg",
@@ -49,7 +50,7 @@ YOUTUBE_IMG_URL = [
 "https://graph.org/file/4b9b5d7b6e1a46c55dea1.jpg",
 "https://graph.org/file/d7f9dd74e37f3e4985075.jpg",
 "https://graph.org/file/8fd58648581a8f8d3f19b.jpg",
-    
+"https://te.legra.ph/file/f56b510d88371ad285fb7.jpg",
     ]
 
 
