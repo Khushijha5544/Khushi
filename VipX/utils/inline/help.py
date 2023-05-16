@@ -23,59 +23,59 @@ def help_pannel(_, START: Union[bool, int] = None):
         [
             [
                 InlineKeyboardButton(
-                    text="🍁αԃɱιɳ🍁",
+                    text="𝙰𝙳𝙼𝙸𝙽",
                     callback_data="help_callback hb1",
                 ),
                 InlineKeyboardButton(
-                    text="🔺αυƭɦ🔺",
+                    text="𝙰𝚄𝚃𝙷",
                     callback_data="help_callback hb2",
                 ),
             
                 InlineKeyboardButton(
-                    text="♨️вℓσ¢к♨️",
+                    text="𝙱𝙻𝙾𝙲𝙺",
                     callback_data="help_callback hb3",
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text="📣ɠ¢αʂƭ📣",
+                    text="𝙶𝙲𝙰𝚂𝚃",
                     callback_data="help_callback hb4",
                 ),
                 InlineKeyboardButton(
-                    text="🚫ɠɓαɳ🚫",
+                    text="𝙶𝙱𝙰𝙽",
                     callback_data="help_callback hb12",
                 ),
                 InlineKeyboardButton(
-                    text="🍷ℓყɾเ¢ʂ🍷",
+                    text="𝙻𝚈𝚁𝙸𝙲𝚂",
                     callback_data="help_callback hb5",
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text="🎙️քℓαყℓเʂƭ🎙️",
+                    text="𝙿𝙻𝙰𝚈𝙻𝙸𝚂𝚃",
                     callback_data="help_callback hb6",
                 ),
                 InlineKeyboardButton(
-                    text="🎸ѵσเ¢ε-¢ɦαƭ🎸",
+                    text="𝚅𝙾𝙸𝙲𝙴-𝙲𝙷𝙰𝚃",
                     callback_data="help_callback hb10",
                 ),
             ],
             [
            
                 InlineKeyboardButton(
-                    text="🕹️ρℓαყ🕹️",
+                    text="𝙿𝙻𝙰𝚈",
                     callback_data="help_callback hb8",
                 ),
             
             
                 InlineKeyboardButton(
-                    text="🍸ʂ𝖚∂σ🍸",
+                    text="𝚂𝚄𝙳𝙾",
                     callback_data="help_callback hb9",
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text="⚜️SƬΛᏒƬ⚜️",
+                    text="𝚂𝚃𝙰𝚁𝚃",
                     callback_data="help_callback hb11",
                 ),
             ],
