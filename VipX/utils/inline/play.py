@@ -257,8 +257,16 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 callback_data=f"ADMIN 1|{chat_id}",
 
             ),
+  ],
+  [
 
-            
+            InlineKeyboardButton(
+
+                text="➕Ꮲℓαүℓιsт➕",
+
+                callback_data=f"add_playlist {videoid}",
+
+            ),          
 
             InlineKeyboardButton(
 
@@ -724,8 +732,16 @@ def track_markup(_, videoid, user_id, channel, fplay):
                 callback_data=f"ADMIN 1|{chat_id}",
 
             ),
+],
+[
 
-            
+            InlineKeyboardButton(
+
+                text="➕Ꮲℓαүℓιsт➕",
+
+                callback_data=f"add_playlist {videoid}",
+
+            ),            
 
             InlineKeyboardButton(
 
