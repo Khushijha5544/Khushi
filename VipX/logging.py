@@ -1,3 +1,14 @@
+#
+# Copyright (C) 2021-2022 by Alexa_Help@Github, < https://github.com/Jankarikiduniya >.
+# A Powerful Music Bot Property Of Rocks Indian Largest Chatting Group
+
+# Kanged By © @Dr_Asad_Ali
+# Rocks © @Shayri_Music_Lovers
+# Owner Asad Ali
+# Harshit Sharma
+# All rights reserved. © Alisha © Alexa © Yukki
+
+
 import logging
 from logging.handlers import RotatingFileHandler
 
@@ -8,9 +19,7 @@ logging.basicConfig(
     format="[%(asctime)s - %(levelname)s] - %(name)s - %(message)s",
     datefmt="%d-%b-%y %H:%M:%S",
     handlers=[
-        RotatingFileHandler(
-            LOG_FILE_NAME, maxBytes=5000000, backupCount=10
-        ),
+        RotatingFileHandler(LOG_FILE_NAME, maxBytes=5000000, backupCount=10),
         logging.StreamHandler(),
     ],
 )

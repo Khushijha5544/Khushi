@@ -1,3 +1,14 @@
+#
+# Copyright (C) 2021-2022 by Alexa_Help @Github, < https://github.com/TheTeamAlexa >.
+# A Powerful Music Bot Property Of Rocks Indian Largest Chatting Group
+
+# Kanged By © @Dr_Asad_Ali
+# Rocks © @Shayri_Music_Lovers
+# Owner Asad Ali
+# Harshit Sharma
+# All rights reserved. © Alisha © Alexa © Alexa
+
+
 import asyncio
 import importlib
 import sys
@@ -7,10 +18,10 @@ from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
 from config import BANNED_USERS
-from VipX import LOGGER, app, userbot
-from VipX.core.call import Vip
-from VipX.plugins import ALL_MODULES
-from VipX.utils.database import get_banned_users, get_gbanned
+from AlexaMusic import LOGGER, app, userbot
+from AlexaMusic.core.call import Alexa
+from AlexaMusic.plugins import ALL_MODULES
+from AlexaMusic.utils.database import get_banned_users, get_gbanned
 
 loop = asyncio.get_event_loop()
 
@@ -23,17 +34,7 @@ async def init():
         and not config.STRING4
         and not config.STRING5
     ):
-        LOGGER("VipX").error(
-            "WTF Baby ! Atleast add a pyrogram string, How Cheap..."
-        )
-        return
-    if (
-        not config.SPOTIFY_CLIENT_ID
-        and not config.SPOTIFY_CLIENT_SECRET
-    ):
-        LOGGER("VipX").warning(
-            "Sur spotify id aur secret toh daala hi nahi aapne ab toh spotify se nahi chala paaoge gaane."
-        )
+        LOGGER("AlexaMusic").error("Add Pyrogram string session and then try...")
     try:
         users = await get_gbanned()
         for user_id in users:
@@ -45,32 +46,24 @@ async def init():
         pass
     await app.start()
     for all_module in ALL_MODULES:
-        importlib.import_module("VipX.plugins." + all_module)
-    LOGGER("VipX.plugins").info(
-        "Necessary Modules Imported Successfully."
-    )
+        importlib.import_module("AlexaMusic.plugins" + all_module)
+    LOGGER("AlexaMusic.plugins").info("Necessary Modules Imported Successfully.")
     await userbot.start()
-    await Vip.start()
+    await Alexa.start()
     try:
-        await Vip.stream_decall("https://telegra.ph/file/de3464aa7d6bfafdd2dc3.mp4")
-    except:
-        pass
-    try:
-        await Vip.stream_call(
-            "https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4"
-        )
+        await Alexa.stream_call("https://telegra.ph/file/b60b80ccb06f7a48f68b5.mp4")
     except NoActiveGroupCall:
-        LOGGER("VipX").error(
-            "[ERROR] - \n\nHey Baby, firstly open telegram and turn on voice chat in Logger Group else fu*k off. If you ever ended voice chat in log group i will stop working and users will fu*k you up."
+        LOGGER("AlexaMusic").error(
+            "[ERROR] - \n\nTurn on group voice chat and don't put it off otherwise I'll stop working thanks."
         )
         sys.exit()
     except:
         pass
-    await Vip.decorators()
-    LOGGER("VipX").info("╔═════ஜ۩۞۩ஜ════╗\n  ♨️𝗠𝗔𝗗𝗘 𝗕𝗬 𝐊𝐇𝐔𝐒𝐇𝐈♨️\n╚═════ஜ۩۞۩ஜ════╝")
+    await Alexa.decorators()
+    LOGGER("AlexaMusic").info("Music Bot Started Successfully")
     await idle()
 
 
 if __name__ == "__main__":
     loop.run_until_complete(init())
-    LOGGER("VipX").info("Stopping Music Bot...")
+    LOGGER("AlexaMusic").info("Stopping Music Bot")
