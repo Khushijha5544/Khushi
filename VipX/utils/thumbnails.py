@@ -1,7 +1,7 @@
 #
-# Copyright (C) 2021-2022 by Alexa_Help @ Github, < https://github.com/Jankarikiduniya >.
+# Copyright (C) 2021-2022 by Y0UR_ALEX @ Github, < https://github.com/Khushijha5544/Khushi >.
 # A Powerful Music Bot Property Of Rocks Indian Largest Chatting Group
-# All rights reserved. © Alisha © Alexa © Yukki © AnonXMusic
+# All rights reserved. © KHUSHI © KHUSHI © Yukki © KHUSHIMUSICBOT 
 
 
 import os
@@ -16,7 +16,7 @@ from PIL import Image, ImageChops, ImageDraw, ImageEnhance, ImageFilter, ImageFo
 from youtubesearchpython.__future__ import VideosSearch
 
 from config import YOUTUBE_IMG_URL
-from AlexaMusic import app
+from VipX import app
 
 
 def changeImageSize(maxWidth, maxHeight, image):
