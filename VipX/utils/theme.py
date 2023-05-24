@@ -1,11 +1,11 @@
-## this code is added by the (C) TheTeamAlexa on 7th March
-# Copyright (C) 2021-2022 by Alexa_Help @ Github, < https://github.com/TheTeamAlexa >.
+## this code is added by the (C) TheTeamKHUSHI on 7th March
+# Copyright (C) 2021-2022 by Y0UR_ALEX @ Github, < https://github.com/Khushijha5544/Khushi >.
 # A Powerful Music Bot Property Of Rocks Indian Largest Chatting Group
-# All rights reserved. © Alisha © Alexa © Yukki
+# All rights reserved. © vc-Bot © Khushi © Yukki
 
 
 import random
-from AlexaMusic.utils.database import get_theme
+from VipX.utils.database import get_theme
 
 themes = [
     "alexa1",
